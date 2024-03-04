@@ -1,7 +1,10 @@
-👋 Hi, I’m @Khaleddamascene
-👀 I’m interested in software development, and technology in general.
-🌱 I’m currently learning new programming languages
-💞️ I’m looking to collaborate on open-source projects related to web development, or software engineering.
-📫 How to reach me khaled-marai1@hotmail.com or through my GitHub profile https://github.com/Khaleddamascene
-😄 Pronouns: He/him
-⚡ Fun fact: I enjoy hiking and discovering new places in nature during my free time.
+Tämä projekti on yksinkertainen korttipelin simulaatio, jossa on yksi pelaaja ja yksi jakaja. Peli käyttää tavallista korttipakkaa, jossa on neljä maata (hertta, risti, ruutu, pata) ja numerot 1-13.
+
+Pelin toiminta:
+
+Kun käyttäjä klikkaa "uudenpeli" -painiketta, korttipakka luodaan uudelleen ja sekoitetaan.
+Pelaajalle ja jakajalle jaetaan aluksi kaksi korttia kullekin.
+Pelaajalla on mahdollisuus ottaa lisää kortteja ("nosta-kortti" -painike) ja pyrkiä saamaan lähemmäs 21 pistettä kuin jakaja.
+Jakaja ottaa kortteja automaattisesti niin kauan kuin hänen pistemääränsä on alle 17.
+Pelaaja voittaa, jos hän saa täsmälleen 21 pistettä tai vähemmän kuin jakaja, mutta yli jakajan pistemäärän. Jakaja voittaa, jos hän saa enemmän pisteitä kuin pelaaja tai jos pelaajan pistemäärä menee yli 21:n.
+Koodi käyttää HTML:ää, CSS:ää ja JavaScriptiä toteuttaakseen pelin toiminnallisuuden selaimessa. Se käyttää myös DOM:ia (Document Object Model) muokatakseen HTML-elementtejä dynaamisesti pelin eri vaiheissa.
